@@ -52,6 +52,7 @@ retrofitKotlinxSerializationJson = "1.0.0"
 room = "2.5.2"
 secrets = "2.0.1"
 turbine = "0.12.1"
+robolectric = "4.10.3"
 
 [libraries]
 accompanist-permissions = { group = "com.google.accompanist", name = "accompanist-permissions", version.ref = "accompanist" }
@@ -130,6 +131,7 @@ room-compiler = { group = "androidx.room", name = "room-compiler", version.ref =
 room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "room" }
 room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
 turbine = { group = "app.cash.turbine", name = "turbine", version.ref = "turbine" }
+robolectric = { group = "org.robolectric", name = "robolectric", version.ref = "robolectric" }
 
 # Dependencies of the included build-logic
 android-gradlePlugin = { group = "com.android.tools.build", name = "gradle", version.ref = "androidGradlePlugin" }

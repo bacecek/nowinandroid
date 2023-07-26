@@ -121,6 +121,8 @@ dependencies {
     implementation(libs.androidx.profileinstaller)
     implementation(libs.kotlinx.coroutines.guava)
     implementation(libs.coil.kt)
+
+    testImplementation(project(":core:testing"))
 }
 
 // androidx.test is forcing JUnit, 4.12. This forces it to use 4.13
